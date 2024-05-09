@@ -1,15 +1,15 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import CreateBlog from "./Ayush/createBlog";
-import Allpost from "./Anushka/allpost";
-import Login from "./Girish/login";
-import Signup from "./Girish/signup";
-import AdminLogin from "./Girish/adminlogin";
-import Singlepost from "./Anushka/onepost";
-import Admin from "./Tanmay/Admin";
-import CardList from "./Tanmay/CardList";
-import BlogList from "./Tanmay/BlogList";
-import ProfilePage from "./Ayush/profilePage";
-import EditProfile from "./Ayush/editProfile";
+import CreateBlog from "./Components/Post Creation/createBlog";
+import Allpost from "./Components/Home-Blog page/allpost";
+import Login from "./Components/Login-signup/login";
+import Signup from "./Components/Login-signup/signup";
+import AdminLogin from "./Components/Login-signup/adminlogin";
+import Singlepost from "./Components/Home-Blog page/onepost";
+import Admin from "./Components/Admin DashBoard/Admin";
+import CardList from "./Components/Admin DashBoard/CardList";
+import BlogList from "./Components/Admin DashBoard/BlogList";
+import ProfilePage from "./Components/Post Creation/profilePage";
+import EditProfile from "./Components/Post Creation/editProfile";
 
 function App() {
   return (
