@@ -1,4 +1,3 @@
-import search from "../../public/assets/search.png";
 import "./App.css";
 
 export default function Header() {

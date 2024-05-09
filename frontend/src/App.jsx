@@ -1,15 +1,15 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import CreateBlog from "./Components/Post Creation/createBlog";
-import Allpost from "./Components/Home-Blog page/allpost";
-import Login from "./Components/Login-signup/login";
-import Signup from "./Components/Login-signup/signup";
-import AdminLogin from "./Components/Login-signup/adminlogin";
-import Singlepost from "./Components/Home-Blog page/onepost";
-import Admin from "./Components/Admin DashBoard/Admin";
-import CardList from "./Components/Admin DashBoard/CardList";
-import BlogList from "./Components/Admin DashBoard/BlogList";
-import ProfilePage from "./Components/Post Creation/profilePage";
-import EditProfile from "./Components/Post Creation/editProfile";
+import CreateBlog from "./components/Post Creation/createBlog";
+import Allpost from "./components/Home-Blog page/allpost";
+import Login from "./components/Login-signup/login";
+import Signup from "./components/Login-signup/signup";
+import AdminLogin from "./components/Login-signup/adminlogin";
+import Singlepost from "./components/Home-Blog page/onepost";
+import Admin from "./components/Admin DashBoard/Admin";
+import CardList from "./components/Admin DashBoard/CardList";
+import BlogList from "./components/Admin DashBoard/BlogList";
+import ProfilePage from "./components/Post Creation/profilePage";
+import EditProfile from "./components/Post Creation/editProfile";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       <Router>
         <Routes>
           <Route exact path="/createblog" element={<CreateBlog />} />
-          <Route exact path="/home" element={<Allpost />} />
+          <Route exact path="/" element={<Allpost />} />
           <Route exact path="/post/:id" element={<Singlepost />} />
           <Route exact path="/signup" element={<Signup />} />
           <Route exact path="/login" element={<Login />} />

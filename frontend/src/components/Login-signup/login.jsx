@@ -31,7 +31,7 @@ const Login = () => {
       localStorage.setItem("token", response.data.token);
 
       // Redirect to home route
-      history("/home");
+      history("/");
     } catch (error) {
       console.error(error);
       setErrorMessage("Internal server error.");
