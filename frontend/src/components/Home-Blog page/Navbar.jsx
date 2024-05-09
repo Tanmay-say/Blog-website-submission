@@ -21,12 +21,14 @@ const Navbar = () => {
             </th>
             <th>
               <Link to={createBlogPath}>
-              <i className="fa-solid fa-house"></i>
+              <i className="fa-solid fa-plus"></i>
+              {/* plus icon */}
               </Link>
             </th>
             <th>
               <Link to={userProfilePath}>
-              <i className="fa-solid fa-house"></i>
+              <i className="fa-solid fa-user"></i>
+              {/* user icon */}
               </Link>
             </th>
           </tr>
