@@ -118,10 +118,8 @@ localhost will open at port no. 5173
 ## For Admin Usage 
 
 # Username :  
-            ```
             admin
 # Password : 
-            ```
             admin123
 
 # Note :
