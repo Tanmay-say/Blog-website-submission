@@ -116,8 +116,10 @@ localhost will open at port no. 5173
 * Mongoose
 
 ## For Admin Usage 
-* Username : '''admin'''
-* Password : '''admin123'''
+# Username :  
+            ```admin
+# Password : 
+            ```admin123
 
 # Note :
 Feel free to adjust the content as needed and add any additional information you think would be helpful!
