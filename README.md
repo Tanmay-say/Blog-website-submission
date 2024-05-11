@@ -100,7 +100,7 @@ These routes are handled by the Express application and are typically accessed t
 
 localhost will open at port no. 5173
 
-3. For backend:
+2. For backend:
 
    ```bash
    cd backend
@@ -114,6 +114,10 @@ localhost will open at port no. 5173
 * MongoDB
 * React Router
 * Mongoose
+
+## For Admin Usage 
+* Username : '''admin'''
+* Password : '''admin123'''
 
 # Note :
 Feel free to adjust the content as needed and add any additional information you think would be helpful!
